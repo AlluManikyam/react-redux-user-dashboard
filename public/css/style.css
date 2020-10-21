@@ -1,0 +1,66 @@
+body {
+  overflow-x: hidden;
+}
+
+.navbar {
+  position: relative;
+  background-color: black;
+}
+
+.navbar-nav ul {
+  margin-bottom: 0;
+  list-style: none;
+  display: flex;
+}
+
+.navbar-nav ul li {
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.login,.dashboard {
+  margin:0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 81vh;
+}
+
+#logo {
+  width: 60px;
+}
+
+.footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.login-button {
+  width: 100px;
+}
+
+.form-group {
+  width: 350px !important;
+}
+
+.error {
+  color: red !important;
+}
+
+.MuiPaper-root{
+  width: 80%!important;
+}
+
+.company-title{
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px;
+}
